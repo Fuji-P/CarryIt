@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CarryIt</title>
+		<meta charset="utf-8" />
+	</head>
+	<body onload="init()">
+		<button onclick="location.reload();">Retry</button>
+		<br>
+		<script src="index.js" async defer></script>
+		<canvas id="soko" width="800" height="440"></canvas>
+		<table>
+			<tr>
+				<td></td>
+				<td>
+					<button onclick="u()">U</button>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="l()">L</button>
+				</td>
+				<td></td>
+				<td>
+					<button onclick="r()">R</button>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<button onclick="d()">D</button>
+				</td>
+				<td></td>
+			</tr>
+		</table>
+		<img id="imgWall" src="imgWall.png" style="display:none" />
+		<img id="imgGoal" src="imgGoal.png" style="display:none" />
+		<img id="imgWorker" src="imgWorker.png" style="display:none" />
+		<img id="imgLuggage" src="imgLuggage.png" style="display:none" />
+	</body>
+</html>
